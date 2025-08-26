@@ -1,0 +1,41 @@
+body {
+  font-family: 'Tajawal', Arial, sans-serif;
+  background: url("bg2.png") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+input[type="file"], button, select {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 6px;
+}
+
+button {
+  background: #ff8800;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e67600;
+}
+
+select {
+  background: #2c2c2c;
+  color: #fff;
+  border: 1px solid #666;
+}
+
+.result {
+  margin-top: 30px;
+  font-size: 1.2em;
+}
+
+.success { color: #00ff99; }
+.fail { color: #ff4444; }
+h1 { color: #ff8800; }

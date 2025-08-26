@@ -1,0 +1,24 @@
+{
+  "name": "Keynova Lock",
+  "short_name": "Keynova",
+  "description": "نظام تحقق هندسي ذكي لحماية بياناتك عبر البصمة البصرية.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#1f1f1f",
+  "theme_color": "#ff8800",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
